@@ -1,0 +1,61 @@
+.reviewForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+}
+.reviewForm .formInput {
+  padding: 10px 0;
+}
+.reviewForm .formInput label {
+  display: block;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+.reviewForm .formInput input {
+  border-radius: 3px;
+  border: 0.2px solid black;
+  width: 330px;
+  height: 25px;
+}
+.reviewForm .formInput #reviewBody {
+  width: 330px;
+  height: 160px;
+  resize: none;
+}
+.reviewForm .formInput textarea {
+  border-radius: 3px;
+  border: 0.5px solid black;
+  width: 330px;
+}
+.reviewForm button {
+  margin: 10px 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 337px;
+  height: 60px;
+}
+.reviewForm button:hover {
+  cursor: pointer;
+}
+
+.reviewProductName {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.reviewContent {
+  padding: 24px 40px 8px 32px;
+  box-sizing: border-box;
+}
+.reviewContent .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=ReviewForm.css.map */

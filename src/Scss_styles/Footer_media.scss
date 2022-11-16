@@ -1,0 +1,363 @@
+
+.Box {
+  //display: flex;
+  //min-height: 100%;
+  //margin-top: auto;
+  //  padding: 20px 20px;
+  padding: 25px 10px 10px 10px;
+  background: none;
+  position: relative;
+  bottom: 0;
+  width: 1300px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+  //height: 300px;
+
+  .media {
+    display: none;
+  }
+
+  @media (max-width: 1330px) {
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+    //align-content: center;
+    //align-items: center;
+  }
+
+
+    .Container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 100%;
+      //margin: 0 10px;
+      position: relative;
+      left: 10%;
+      //margin-right: -50%;
+      //transform: translate(-50%, -50%);
+      //align-items: center;
+      //justify-content: center;
+      //left: 30px;
+
+      .Row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: auto;
+        margin: auto;
+        //align-items: center;
+        //justify-content: center;
+
+
+
+        //display: grid;
+        //grid-template-columns: repeat(auto-fill, minmax(220px, 220px));
+        //grid-gap: 70px;
+
+
+        @media (max-width: 1000px) {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          width: auto;
+
+          //grid-template-columns: repeat(auto-fill, minmax(240px, 220px));
+        }
+
+        .Column {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          margin-left: 40px;
+          width: 260px;
+
+          .Container_Btn {
+
+            .Heading {
+              font-size: 14px;
+              color: black;
+              margin-bottom: 22px;
+              font-weight: bold;
+              display: inline-block;
+              position: relative;
+              margin-left: 0;
+
+              &:hover {
+                cursor: pointer;
+              }
+
+              &:after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: #d31334;
+                transform-origin: bottom left;
+                transition: transform 0.25s ease-out;
+              }
+              &:hover:after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+              }
+
+            }
+
+            .Container_Btn_Media {
+              ////display: none;
+              display: flex;
+              flex-direction: column;
+              //text-align: left;
+              //margin-left: 5px;
+              //width: 260px;
+
+              .FooterLink {
+                //display: flex;
+                color: black;
+                margin-bottom: 22px;
+                font-size: 17px;
+                text-decoration: none;
+                display: inline-block;
+                position: relative;
+                margin-left: 0;
+
+                &:hover {
+                  cursor: pointer;
+                }
+
+                &:after {
+                  content: '';
+                  position: absolute;
+                  width: 100%;
+                  transform: scaleX(0);
+                  height: 2px;
+                  bottom: 0;
+                  left: 0;
+                  background-color: #d31334;
+                  transform-origin: bottom left;
+                  transition: transform 0.25s ease-out;
+                }
+                &:hover:after {
+                  transform: scaleX(0.2);
+                  transform-origin: bottom left;
+                }
+              }
+            }
+
+          }
+        }
+
+        .Column2 {
+          display: flex;
+          flex-direction: column;
+          text-align: left;
+          margin-left: 40px;
+          width: 260px;
+          position: relative;
+          .Heading {
+            font-size: 14px;
+            color: black;
+            margin-bottom: 25px;
+            font-weight: bold;
+            display: inline-block;
+            position: relative;
+            margin-left: 0;
+
+            &:hover {
+              cursor: pointer;
+            }
+
+            &:after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              transform: scaleX(0);
+              height: 2px;
+              bottom: 0;
+              left: 0;
+              background-color: #d31334;
+              transform-origin: bottom left;
+              transition: transform 0.25s ease-out;
+            }
+            &:hover:after {
+              transform: scaleX(0.3);
+              transform-origin: bottom left;
+            }
+          }
+
+          .FooterLink {
+            color: black;
+            margin-bottom: 24px;
+            font-size: 17px;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+
+            &:hover {
+              cursor: pointer;
+            }
+
+            &:after {
+              content: '';
+              position: absolute;
+              width: 100%;
+              transform: scaleX(0);
+              height: 2px;
+              bottom: 0;
+              left: 0;
+              background-color: #d31334;
+              transform-origin: bottom left;
+              transition: transform 0.25s ease-out;
+            }
+            &:hover:after {
+              transform: scaleX(0.6);
+              transform-origin: bottom left;
+            }
+          }
+
+
+        }
+
+        .Column3 {
+          display: flex;
+          flex-direction: row;
+          text-align: left;
+          margin-left: 20px;
+          font-size: 30px;
+          width: 200px;
+          cursor: pointer;
+
+          .icon {
+            padding: 20px;
+          }
+        }
+
+      }
+
+
+    }
+  }
+
+//}
+
+
+//.container_Btn_media{
+//  //display: none;
+//  display: flex;
+//  flex-direction: column;
+//  text-align: left;
+//  margin-left: 5px;
+//  width: 260px;
+//}
+
+
+
+
+
+@media screen and (max-width: 390px) {
+
+  .Box {
+    //display: flex;
+    .media {
+      width: 85vw;
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+
+      .css-10hburv-MuiTypography-root {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+        display: inline-block;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #d31334;
+          transform-origin: bottom left;
+          transition: transform 0.25s ease-out;
+        }
+        &:hover:after {
+          transform: scaleX(0.3);
+          transform-origin: bottom left;
+        }
+      }
+
+
+      .media_test {
+        display: flex;
+        flex-direction: column;
+
+        .css-i4bv87-MuiSvgIcon-root {
+          //color: #d31334;
+          //margin-right: 5px;
+          padding-right: 10px;
+
+        }
+
+        span {
+
+          //background-color: #1f2124;
+          display: flex;
+          margin-bottom: 5px;
+
+
+
+        }
+
+      }
+
+      .List56 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        transform: translate(-4%);
+      }
+
+      .Mobil_Icon {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        //align-items: center;
+        .icon_M {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 95vw;
+          //padding: 10px 0 30px 0;
+          font-size: 25px;
+          //padding: 10px;
+
+        }
+      }
+    }
+
+    .Container {
+      display: none;
+
+      .Container_Btn{
+        height: 40px;
+
+        //.Container_Btn_Media{
+        //  display: none;
+        //}
+      }
+    }
+  }
+}

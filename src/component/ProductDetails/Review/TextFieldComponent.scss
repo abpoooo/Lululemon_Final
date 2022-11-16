@@ -1,0 +1,37 @@
+.textarea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  input {
+    resize: vertical;
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 14px 69px 14px 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    min-height: 22px;
+    text-align: start;
+    white-space: pre-wrap;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    &:focus {
+      box-shadow: 0 0 0.375rem rgb(0, 0, 0, 0.45);
+      outline: none;
+    }
+  }
+  .errorIcon {
+    position: absolute;
+    color: rgb(210, 32, 48);
+    right: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+}
+span.error {
+  color: rgb(210, 32, 48);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 6px;
+}

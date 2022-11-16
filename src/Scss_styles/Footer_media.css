@@ -1,0 +1,259 @@
+.Box {
+  padding: 25px 10px 10px 10px;
+  background: none;
+  position: relative;
+  bottom: 0;
+  width: 1300px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: auto;
+}
+.Box .media {
+  display: none;
+}
+@media (max-width: 1330px) {
+  .Box {
+    width: 100%;
+    margin: 0;
+    padding: 30px 30px;
+  }
+}
+.Box .Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+  left: 10%;
+}
+.Box .Container .Row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: auto;
+  margin: auto;
+}
+@media (max-width: 1000px) {
+  .Box .Container .Row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+  }
+}
+.Box .Container .Row .Column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 40px;
+  width: 260px;
+}
+.Box .Container .Row .Column .Container_Btn .Heading {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 22px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  margin-left: 0;
+}
+.Box .Container .Row .Column .Container_Btn .Heading:hover {
+  cursor: pointer;
+}
+.Box .Container .Row .Column .Container_Btn .Heading:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d31334;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+.Box .Container .Row .Column .Container_Btn .Heading:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.Box .Container .Row .Column .Container_Btn .Container_Btn_Media {
+  display: flex;
+  flex-direction: column;
+}
+.Box .Container .Row .Column .Container_Btn .Container_Btn_Media .FooterLink {
+  color: black;
+  margin-bottom: 22px;
+  font-size: 17px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin-left: 0;
+}
+.Box .Container .Row .Column .Container_Btn .Container_Btn_Media .FooterLink:hover {
+  cursor: pointer;
+}
+.Box .Container .Row .Column .Container_Btn .Container_Btn_Media .FooterLink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d31334;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+.Box .Container .Row .Column .Container_Btn .Container_Btn_Media .FooterLink:hover:after {
+  transform: scaleX(0.2);
+  transform-origin: bottom left;
+}
+.Box .Container .Row .Column2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 40px;
+  width: 260px;
+  position: relative;
+}
+.Box .Container .Row .Column2 .Heading {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 25px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  margin-left: 0;
+}
+.Box .Container .Row .Column2 .Heading:hover {
+  cursor: pointer;
+}
+.Box .Container .Row .Column2 .Heading:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d31334;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+.Box .Container .Row .Column2 .Heading:hover:after {
+  transform: scaleX(0.3);
+  transform-origin: bottom left;
+}
+.Box .Container .Row .Column2 .FooterLink {
+  color: black;
+  margin-bottom: 24px;
+  font-size: 17px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+.Box .Container .Row .Column2 .FooterLink:hover {
+  cursor: pointer;
+}
+.Box .Container .Row .Column2 .FooterLink:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #d31334;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+.Box .Container .Row .Column2 .FooterLink:hover:after {
+  transform: scaleX(0.6);
+  transform-origin: bottom left;
+}
+.Box .Container .Row .Column3 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 30px;
+  width: 200px;
+  cursor: pointer;
+}
+.Box .Container .Row .Column3 .icon {
+  padding: 20px;
+}
+
+@media screen and (max-width: 390px) {
+  .Box .media {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .Box .media .css-10hburv-MuiTypography-root {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .Box .media .css-10hburv-MuiTypography-root:hover {
+    cursor: pointer;
+  }
+  .Box .media .css-10hburv-MuiTypography-root:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #d31334;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+  .Box .media .css-10hburv-MuiTypography-root:hover:after {
+    transform: scaleX(0.3);
+    transform-origin: bottom left;
+  }
+  .Box .media .media_test {
+    display: flex;
+    flex-direction: column;
+  }
+  .Box .media .media_test .css-i4bv87-MuiSvgIcon-root {
+    padding-right: 10px;
+  }
+  .Box .media .media_test span {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .Box .media .List56 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    transform: translate(-4%);
+  }
+  .Box .media .Mobil_Icon {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Box .media .Mobil_Icon .icon_M {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    font-size: 25px;
+  }
+  .Box .Container {
+    display: none;
+  }
+  .Box .Container .Container_Btn {
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=Footer_media.css.map */

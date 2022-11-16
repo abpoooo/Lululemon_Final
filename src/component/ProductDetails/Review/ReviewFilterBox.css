@@ -1,0 +1,33 @@
+.filterBox {
+  border: none;
+  position: relative;
+  width: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.filterBox div {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filterBox div.checkbox {
+  margin: 0;
+}
+.filterBox div.checkbox:hover {
+  cursor: default;
+}
+.filterBox div.hoverCheck {
+  margin: 0;
+  color: lightgray;
+  scale: 0.7;
+  font-weight: 1000;
+}
+.filterBox div.hoverCheck:hover {
+  cursor: default;
+}
+
+/*# sourceMappingURL=ReviewFilterBox.css.map */

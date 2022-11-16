@@ -1,0 +1,23 @@
+.ProductDetail_MainCarousel_Responsive {
+  height: auto;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ProductDetail_MainCarousel_Responsive_SlideStyles {
+  width: auto;
+  height: auto;
+  border-Radius: 10px;
+  background-Position: center;
+  background-Size: cover;
+}
+.ProductDetail_MainCarousel_Responsive .swiper-slide {
+  transform: translateY(20px) !important;
+}
+.ProductDetail_MainCarousel_Responsive :root {
+  --swiper-theme-color: black !important;
+}
+
+/*# sourceMappingURL=CarouselResponsive.css.map */

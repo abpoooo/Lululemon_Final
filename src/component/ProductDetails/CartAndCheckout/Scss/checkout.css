@@ -1,0 +1,305 @@
+.desktopCheckout .logoContainer {
+  display: flex;
+  justify-content: center;
+}
+.desktopCheckout .logo {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  margin: 40px 0;
+}
+.desktopCheckout .checkout-left {
+  display: flex;
+  flex-direction: column;
+}
+.desktopCheckout .orderDetails {
+  margin: 0 30px;
+  display: flex;
+  border-bottom: 1px lightgray solid;
+  padding: 20px 0 30px;
+}
+.desktopCheckout .orderSummary {
+  width: 300px;
+  position: relative;
+}
+.desktopCheckout .orderSummary_Btn_Red {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(211, 19, 52);
+  border-color: rgb(211, 19, 52);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+.desktopCheckout .edit {
+  border-bottom: 1px lightgray solid;
+  width: 27px;
+  height: 21px;
+}
+.desktopCheckout .edit:hover {
+  border-bottom: 1px red solid;
+  cursor: pointer;
+}
+.desktopCheckout .remove {
+  border-bottom: 1px lightgray solid;
+  margin: 0 20px;
+}
+.desktopCheckout .remove:hover {
+  border-bottom: 1px red solid;
+  cursor: pointer;
+}
+.desktopCheckout .save {
+  margin: 0 20px;
+  border-bottom: 1px lightgray solid;
+}
+.desktopCheckout .save:hover {
+  border-bottom: 1px red solid;
+  cursor: pointer;
+}
+.desktopCheckout .account {
+  font-weight: bold;
+}
+.desktopCheckout .signIn {
+  font-weight: bold;
+}
+.desktopCheckout .account:hover {
+  cursor: pointer;
+}
+.desktopCheckout .signIn:hover {
+  cursor: pointer;
+}
+.desktopCheckout .footer {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.desktopCheckout .footer p {
+  margin: 5px 0;
+  font-size: small;
+  display: inline-block;
+}
+.desktopCheckout .footer span {
+  margin: 5px 0;
+  font-size: small;
+  display: inline-block;
+}
+.desktopCheckout .footer span:hover {
+  cursor: pointer;
+}
+.desktopCheckout .footer span::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: red;
+  transition: 300ms;
+}
+.desktopCheckout .footer span:hover::after {
+  width: 60px;
+}
+
+.mediaCheckout {
+  width: 70vw;
+}
+.mediaCheckout .logoContainer {
+  display: flex;
+  justify-content: center;
+}
+.mediaCheckout .logoContainer .logo {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+  margin: 40px 0;
+}
+.mediaCheckout .orderDetail .orderDetail_BagAndTotal {
+  display: flex;
+  justify-content: space-between;
+}
+.mediaCheckout .orderDetail .orderSummary_Btn_Red {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  height: 50px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(211, 19, 52);
+  border-color: rgb(211, 19, 52);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+.mediaCheckout .orderDetail .orderSummary_Btn_Red .logo2 {
+  z-index: 1;
+  width: 20px;
+  height: 15px;
+  padding-bottom: 5px;
+}
+.mediaCheckout .orderDetail .shipment {
+  display: flex;
+  flex-direction: column;
+  border: lightgray 1px solid;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.mediaCheckout .orderDetail .shipment span {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.mediaCheckout .orderDetail .orderDetails {
+  display: flex;
+  margin: 20px 0px;
+}
+.mediaCheckout .orderDetail .orderDetails .checkout_info .checkout_info_productName {
+  font-weight: bold;
+  margin: 0 0 0 5px;
+}
+.mediaCheckout .orderDetail .orderDetails .checkout_info p {
+  font-size: 12px;
+  margin: 5px;
+}
+.mediaCheckout .orderDetail .orderDetails .checkout_info span {
+  font-size: 12px;
+}
+.mediaCheckout .orderDetail .orderDetails .checkout_info .edit {
+  border-bottom: 1px solid lightgray;
+}
+.mediaCheckout .orderDetail .orderDetails .checkout_info .save {
+  border-bottom: 1px solid lightgray;
+}
+
+.mediaFooter {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.mediaFooter span {
+  font-size: 10px;
+  margin: 5px 0;
+}
+.mediaFooter span:hover {
+  cursor: pointer;
+}
+.mediaFooter span::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: red;
+  transition: 300ms;
+}
+.mediaFooter span:hover::after {
+  width: 60px;
+}
+
+.logo2 {
+  z-index: 1;
+  width: 20px;
+  height: 15px;
+  padding-bottom: 5px;
+}
+
+.orderSummary_Btn_R {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  height: 50px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(211, 19, 52);
+  border-color: rgb(211, 19, 52);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+
+.orderSummary_Btn_P {
+  display: flex;
+  justify-content: center;
+  width: 70vw;
+  height: 50px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+
+.XRemove:hover {
+  cursor: pointer;
+}
+
+.paypal_expired {
+  background-color: #009cde;
+  height: 45px;
+  width: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.paypal_expired_Logo {
+  width: 16px;
+}
+.paypal_expired_Text {
+  width: 66px;
+}
+
+@media only screen and (max-width: 992px) {
+  .desktopCheckout {
+    display: none;
+  }
+  .mediaCheckout {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .desktopCheckout {
+    display: block;
+  }
+  .RD_paypal {
+    display: block;
+  }
+  .paypal_expired {
+    background-color: #009cde;
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .paypal_expired_Logo {
+    width: 16px;
+  }
+  .paypal_expired_Text {
+    width: 66px;
+  }
+  .mediaCheckout {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=checkout.css.map */

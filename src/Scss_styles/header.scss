@@ -1,0 +1,87 @@
+//.Header {
+//  background: whitesmoke;
+//  display: flex;
+//  flex-direction: row;
+//  justify-content: flex-end;
+//  font-size: 13px;
+//  padding: 5px;
+//  align-items: center;
+//
+//  p {
+//    margin: 0 15px 0 6px;
+//  }
+//
+//  h1 {
+//    display: none;
+//  }
+//
+//  img {
+//    display: none;
+//  }
+//
+//  @media screen and (max-width: 1000px) {
+//    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lululemon_Athletica_logo.svg/1200px-Lululemon_Athletica_logo.svg.png");
+//    background-repeat: no-repeat;
+//    background-size: 25px;
+//    background-position: left 13px center;
+//    background-color: #fff;
+//    p {
+//      display: none
+//    }
+//    h1 {
+//      display: flex
+//    }
+//  }
+//
+//  :hover {
+//    cursor: pointer;
+//    text-decoration: underline crimson 2px;
+//    text-underline-offset: 8px;
+//  }
+//}
+
+//
+//.header {
+//  top: 0;
+//  position: fixed;
+//  //width: 86%;
+//  background: white;
+//  display: flex;
+//  margin-right: 20%;
+//  justify-content: end;
+//  font-size: 13px;
+//  //padding: 5px;
+//  align-items: center;
+//  z-index: 1;
+//}
+
+.visible {
+  /* display: flex; */
+  top: 0;
+  transition: top 0.4s ease-out;
+}
+
+.hidden {
+  /* display: none; */
+  top: -80px;
+  transition: top 0.4s ease-out;
+}
+
+.cls {
+  padding: 30px;
+  background-color: lime;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+
+
+
+p {
+  margin: 0 15px 0 6px;
+}
+
+header:hover {
+  cursor: pointer;}

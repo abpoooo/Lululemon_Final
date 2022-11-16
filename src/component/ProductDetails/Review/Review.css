@@ -1,0 +1,154 @@
+.allReviews {
+  margin: 20px 50px;
+  width: 95vw;
+  max-width: 1292px;
+}
+.allReviews .reviewHeader {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  border-top: 1px rgb(213, 213, 213) solid;
+  padding: 40px 0;
+}
+.allReviews .reviewHeader_title {
+  font-size: 57px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+.allReviews .reviewHeader_avgRating {
+  margin-bottom: 16px;
+}
+.allReviews .reviewHeader_avgRating_bar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.allReviews .reviewHeader_avgRating_bar1 span {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.allReviews .reviewHeader_avgRating_bar1 div svg {
+  scale: 1.1;
+  padding: 2px;
+}
+.allReviews .reviewHeader_avgRating_bar1 div svg path {
+  scale: 1.1;
+}
+.allReviews .reviewHeader_avgRating_bar2 {
+  color: rgb(87, 88, 91);
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+}
+.allReviews .reviewHeader_size {
+  margin-bottom: 16px;
+}
+.allReviews .reviewHeader_size_bar1 span {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.allReviews .reviewHeader_size_bar2 {
+  width: 210px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+}
+.allReviews .reviewHeader_size_bar2 .sizeBar {
+  width: 108px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.allReviews .reviewHeader_size_bar2 .sizeBar div {
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 6px;
+  background-color: rgb(213, 213, 213);
+  cursor: default;
+}
+.allReviews .reviewHeader_size_bar2 .sizeBar div p {
+  float: bottom;
+  width: 30px;
+  color: grey;
+  visibility: hidden;
+  font-size: 14px;
+}
+.allReviews .reviewHeader_size_bar2 .sizeBar div:hover p {
+  visibility: visible;
+}
+.allReviews .reviewHeader_size_bar2 .sizeBar div.bar3 {
+  background-color: black;
+}
+.allReviews .reviewHeader_size_bar2 span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(87, 88, 91);
+}
+.allReviews .reviewHeader_writeReview {
+  margin: 16px 0 16px 0;
+  width: 278px;
+  padding: 16px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.allReviews .reviewHeader_writeReview button {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.allReviews .reviewContainer {
+  display: flex;
+}
+.allReviews .reviewContainer .reviewList {
+  max-width: 980px;
+}
+.allReviews .reviewContainer .reviewList .reviewListHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 24px;
+}
+.allReviews .reviewContainer .reviewList .reviewListHeader .reviewNumber {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+.allReviews .reviewContainer .reviewList .reviewListHeader .sortDropDown .label label {
+  font-size: 16px;
+  font-weight: 400;
+}
+.allReviews .reviewContainer .reviewList .reviewListHeader .sortDropDown .select .css-1s2u09g-control {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.allReviews .reviewContainer .reviewList .reviewListHeader .sortDropDown .select .css-1s2u09g-control .css-319lph-ValueContainer, .allReviews .reviewContainer .reviewList .reviewListHeader .sortDropDown .select .css-1s2u09g-control .css-qc6sy-singleValue, .allReviews .reviewContainer .reviewList .reviewListHeader .sortDropDown .select .css-1s2u09g-control .css-6j8wv5-Input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.allReviews .reviewContainer .reviewList .reviewListHeader .sortDropDown .select .css-1okebmr-indicatorSeparator {
+  display: none;
+}
+.allReviews .reviewContainer .reviewListHeader_mobile {
+  display: none;
+}
+
+/*# sourceMappingURL=Review.css.map */

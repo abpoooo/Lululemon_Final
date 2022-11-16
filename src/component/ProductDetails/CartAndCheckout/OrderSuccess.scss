@@ -1,0 +1,340 @@
+
+.OrderSuccess {
+  //box-sizing: border-box;
+  max-width: 900px;
+  min-width: 390px;
+  width: 60%;
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+
+    .logo {
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+  }
+
+  .OrderSuccess_info {
+
+    &_Image {
+      padding-top: 60px;
+      display: flex;
+      justify-content: center;
+
+
+
+    }
+
+    &_Header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-size: 3rem;
+        color: green;
+        margin: 10px;
+      }
+
+      span {
+        font-size: 1.6rem;
+        font-weight: 500;
+
+      }
+    }
+
+    &_Main {
+      display: flex;
+      flex-direction: row;
+      padding-top: 50px;
+      //max-width: 700px;
+      font-size: 1.3rem;
+      justify-content: space-around;
+      //margin-left: 30px;
+
+
+      &_Left {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          line-height: 1.2;
+          font-weight: 400;
+          color: #57585B;
+          margin: 5px 0;
+        }
+
+      }
+
+      &_Right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        span {
+          line-height: 1.2;
+          font-weight: 600;
+          margin: 5px 0;
+        }
+
+      }
+
+    }
+
+    &_Button {
+      //margin: 1rem -1.5625rem 0.5rem;
+      //text-align: right;
+      display: flex;
+      flex-direction: row;
+      padding-top: 30px;
+      justify-content: space-around;
+
+
+
+      button {
+        min-width: 10rem;
+        letter-spacing: .075rem;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 600;
+        display: inline-flex;
+        width: auto;
+        background-color: #d31334;
+        //border-color: #d31334;
+        color: #ffffff;
+        border: 0.0625rem solid #d31334;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        justify-content: center;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+      }
+    }
+
+  }
+
+  .footer{
+    padding-top: 50px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    //margin-right: 800px;
+    //margin-left: 50px;
+    margin-left: -1.5625rem;
+    margin-right: -1.5625rem;
+  }
+
+
+  .footer p{
+    margin: 5px 0;
+    font-size: small;
+    display: inline-block;
+  }
+
+  .footer span{
+    margin: 5px 0;
+    font-size: small;
+    display: inline-block;
+  }
+
+
+  .footer span:hover{
+    cursor: pointer;
+  }
+
+
+  .footer span::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: red;
+    transition: 300ms;
+  }
+
+  .footer span:hover::after {
+    width: 60px;
+  }
+
+}
+.OrderSuccess_Media {
+  display: none;
+}
+
+@media only screen and (max-width: 390px) {
+  .OrderSuccess {
+    display: none;
+  }
+
+  .OrderSuccess_Media {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+
+    .logoContainer {
+      display: flex;
+      justify-content: center;
+      border-bottom: lightgray 1px solid;
+
+      .logo {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        margin: 10px 0;
+      }
+    }
+
+    .OrderSuccess_info {
+
+      &_Image {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+
+      }
+
+      &_Header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+          font-size: 2rem;
+          color: green;
+          margin: 10px;
+        }
+
+        span {
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+
+      }
+
+      &_Main {
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        max-width: 700px;
+        font-size: 1.3rem;
+        justify-content: space-around;
+        //margin-left: 30px;
+
+
+        &_Left {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            line-height: 1.2;
+            font-weight: 400;
+            color: #57585B;
+            margin: 5px 0;
+            font-size: 1rem;
+          }
+
+        }
+
+        &_Right {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+
+          span {
+            line-height: 1.2;
+            font-weight: 600;
+            margin: 5px 0;
+            font-size: 1rem;
+          }
+
+        }
+
+      }
+
+      &_Button {
+        margin: 0.5rem 0;
+        text-align: center;
+        max-width: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        button {
+          max-width: 380px;
+          letter-spacing: .075rem;
+          text-transform: uppercase;
+          font-size: 1rem;
+          font-weight: 600;
+          display: inline-flex;
+          width: 96%;
+          background-color: #d31334;
+          //border-color: #d31334;
+          color: #ffffff;
+          border: 0.0625rem solid #d31334;
+          border-radius: 0.25rem;
+          cursor: pointer;
+          justify-content: center;
+          padding: 1rem;
+          text-align: center;
+          text-decoration: none;
+          margin: 10px;
+        }
+      }
+
+    }
+
+    .footer{
+      max-width: 390px;
+      display: flex;
+      flex-direction: column;
+      color: #4d4d4d;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1.5rem 1rem 0.75rem;
+      //margin-right: 800px;
+      //margin-left: 50px;
+      //margin-left: -0.625rem;
+      //margin-right: -0.625rem;
+    }
+
+
+    .footer p{
+      margin: 5px 0;
+      font-size: small;
+      display: inline-block;
+    }
+
+    .footer span{
+      margin: 5px 0;
+      font-size: small;
+      display: inline-block;
+    }
+
+
+    .footer span:hover{
+      cursor: pointer;
+    }
+
+
+    .footer span::after {
+      content: '';
+      width: 0px;
+      height: 1px;
+      display: block;
+      background: red;
+      transition: 300ms;
+    }
+
+    .footer span:hover::after {
+      width: 60px;
+    }
+
+  }
+
+}
+

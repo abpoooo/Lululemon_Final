@@ -1,0 +1,73 @@
+
+.Product_RecentReview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+  .Product_RecentReview_Header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    //margin-bottom: 5%;
+    align-items: center;
+  }
+
+  .Product_RecentReview_ListProducts {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    //overflow: hidden;
+    max-width: 92rem;
+    gap: 20px;
+
+    .item {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      //padding-left: 65%;
+      //margin-left: 10%;
+      //margin-left: 65%;
+      //position: relative;
+      width: 100%;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+      transition: all 0.2s;
+      transform: scale(0.98);
+      will-change: transform;
+      user-select: none;
+      cursor: pointer;
+      img{
+        //margin-left: 65%;
+      }
+
+
+      .item.active {
+        background: rgba(255, 255, 255, 0.3);
+        cursor: grabbing;
+        //cursor: ;
+        transform: scale(1);
+      }
+
+      .item {
+        display: inline-block;
+        background: skyblue;
+        min-height: 250px;
+        min-width: 400px;
+        margin: 2em 1em;
+        @media screen and (max-width: 390px) {
+          //min-height: 200px;
+          //min-width: 200px;
+          height: 350px;
+          width: 294px;
+        }
+      }
+    }
+  }
+
+
+}

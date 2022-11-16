@@ -1,0 +1,26 @@
+.Product_Details {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+.Product_Details .Product_Details_Footer {
+  width: 100%;
+}
+.Product_Details .Product_Details_Features {
+  width: 100%;
+}
+.Product_Details .Product_Details_YouMayAlsoLikeProducts {
+  width: 100%;
+}
+.Product_Details .Product_Details_RecentViewProducts {
+  width: 100%;
+}
+.Product_Details .Product_Details_Reviews {
+  width: 100%;
+}
+.Product_Details .Product_Details_Virtual {
+  width: 100%;
+}
+
+/*# sourceMappingURL=ProductPage.css.map */

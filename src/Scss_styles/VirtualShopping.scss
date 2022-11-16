@@ -1,0 +1,41 @@
+.VirtualShopping{
+
+.images {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+  img{
+    width: 661px;
+    height: 355px;
+  }
+.VirtualShopping_Contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  top: -330px;
+  left: 33%;
+  background: white;
+  width: 538.99px;
+  height: 264px;
+
+
+  button {
+    &:hover {
+      cursor: pointer;
+      background: black;
+      color: white;
+    }
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+}
+
+}

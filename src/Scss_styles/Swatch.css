@@ -1,0 +1,54 @@
+.Swatch_Container {
+  position: relative;
+  width: 265px;
+  margin-top: 5px;
+  margin-left: 17px;
+}
+.Swatch_Container .icon {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  transform: translateY(-80%);
+  top: 53%;
+  scale: 70%;
+}
+.Swatch_Container .icon.forwards {
+  left: 105%;
+}
+.Swatch_Container .icon.backwards {
+  left: -10%;
+}
+.Swatch_Container .SwatchBar {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.Swatch_Container .SwatchBar .swipe {
+  margin: 0;
+  transition: left ease-in-out 0.2s;
+}
+.Swatch_Container .SwatchBar .swipe .HoverSwatch {
+  border-radius: 50%;
+  margin: 2px;
+  padding: 3px;
+  border: white solid 1px;
+}
+.Swatch_Container .SwatchBar .swipe .HoverSwatch .Swatch_Color {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: solid lightgray 1px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Swatch_Container .SwatchBar .swipe .HoverSwatch .Swatch_Color :hover {
+  cursor: pointer;
+}
+.Swatch_Container .SwatchBar .swipe .HoverSwatch .Swatch_Color img {
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Swatch.css.map */

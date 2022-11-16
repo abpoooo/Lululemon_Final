@@ -1,0 +1,106 @@
+.Review {
+  background: whitesmoke;
+}
+@media only screen and (max-width: 1165px) {
+  .Review {
+    display: none;
+  }
+}
+.Review .ReviewsOfCustomers {
+  margin-top: 10px;
+}
+.Review .css-1iz4iln {
+  translate: -5px -20px 20px;
+}
+.Review .Filters {
+  background: white;
+  padding: 10px;
+}
+.Review .Filters h3 {
+  padding-left: 20px;
+  margin-right: 100px;
+}
+.Review .ReviewContent {
+  justify-content: center;
+}
+.Review .ReviewContentHeader {
+  justify-content: center;
+  padding: 20px 20px 20px 50px;
+}
+.Review .ReviewFilter {
+  width: 312px;
+  height: 340px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.Review .ReviewFilter h3 {
+  padding: 0 20px 0 20px;
+}
+.Review .ReviewFilter h4 {
+  padding: 10px;
+}
+.Review .row {
+  display: flex;
+  flex-direction: row;
+}
+.Review .column {
+  display: flex;
+  flex-direction: column;
+}
+.Review .Ratings {
+  align-items: baseline;
+  padding: 5px;
+}
+.Review .ReviewHeader {
+  justify-content: center;
+  align-items: center;
+}
+.Review .ReviewHeader h2 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+.Review .ReviewHeader button {
+  background-color: black;
+  color: white;
+  width: 312px;
+  height: 53.19px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.Review .ReviewHeader button:hover {
+  cursor: pointer;
+  background: #57585b;
+  border: none;
+}
+.Review h3 {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 0;
+}
+.Review h4 {
+  font-size: 15px;
+  font-weight: normal;
+  color: #57585b;
+  margin: 0 5%;
+}
+.Review .container {
+  width: 966px;
+  height: 223px;
+  justify-content: flex-start;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 1px 1px lightgray;
+}
+.Review .container div {
+  padding: 5px;
+}
+.Review .container h3 {
+  padding: 5px;
+}
+.Review .container h4 {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=Reviews.css.map */

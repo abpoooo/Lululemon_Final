@@ -1,0 +1,619 @@
+@media only screen and (max-width: 390px) {
+  .Products_details_Main_Product_Contents {
+    display: none !important;
+  }
+  .Products_details_Main_Product_Contents .Product_Details_Content .preview_img {
+    display: none;
+  }
+  .Products_details_Main_Product_Contents .Products_details_Main_Single_Product_Img {
+    display: none;
+  }
+  .Products_details_Main .Products_details_Main_Single_Product {
+    display: none;
+  }
+  .Responsive {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50%;
+    padding: 100px 0 200px 0;
+  }
+  .Responsive .Responsive_Contents {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    justify-content: flex-start;
+    width: 600px;
+  }
+  .Responsive .Responsive_Contents .Responsive_Contents_name {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_Contents_price {
+    display: block;
+    font-size: 1.1875rem;
+    font-weight: 300;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_payment {
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_Contents_Swatches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 50%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    line-height: 1.2;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_Contents_Swatches .Products_details_Main_Product_Contents_Swatches_Swatch {
+    padding-right: 15%;
+    margin-right: 10%;
+  }
+  .Responsive .Responsive_Contents .Responsive_Contents_Swatches .Products_details_Main_Product_Contents_Swatches_Swatch img {
+    border-radius: 50%;
+    border: 5px solid white;
+  }
+  .Responsive .Responsive_Contents .Responsive_Contents_Swatches .Products_details_Main_Product_Contents_Swatches_Swatch img:hover {
+    cursor: pointer;
+    border: 5px solid #57585b;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .title .sizeContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .title .sizeContainer span {
+    padding: 5px;
+    font-weight: bold;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .title .sizeContainer span .size {
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .title .sizeGuide {
+    margin-left: 200px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(100, 100, 80, 0.3);
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .title .sizeGuide:hover {
+    border-bottom: 1px solid #d22030;
+    cursor: pointer;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .sizeBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .sizeBar .sizeCell {
+    font-size: 20px;
+    border: 2px solid grey;
+    outline: 5px black;
+    margin: 3% 3% 3% 0;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 4px 10px;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_Size .sizeBar .sizeCell:hover {
+    border-color: black;
+    cursor: pointer;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_WhatSize {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_sizes .Products_details_Main_Product_Contents_WhatSize .WhatSize {
+    text-decoration: underline;
+    margin-left: 5%;
+  }
+  .Responsive .Responsive_Contents .ResponsiveShipOrNot .Ship h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .Responsive .Responsive_Contents .ResponsiveShipOrNot .Ship .Icon1 {
+    margin-left: 2rem;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveShipOrNot .Ship h5 {
+    color: #57585b;
+    font-weight: 400;
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    margin-left: 4rem;
+  }
+  .Responsive .Responsive_Contents .ResponsiveShipOrNot .PickUp {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10%;
+  }
+  .Responsive .Responsive_Contents .ResponsiveShipOrNot .PickUp h4 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-decoration: none;
+    font-weight: 400;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveShipOrNot .PickUp .Icon {
+    width: 24px;
+    height: 24px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveAddToBag {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .Responsive .Responsive_Contents .ResponsiveAddToBag button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 60px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin: 0.5rem;
+    background-color: rgb(211, 19, 52);
+    border-color: rgb(211, 19, 52);
+    color: rgb(255, 255, 255);
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.075rem;
+  }
+  .Responsive .Responsive_Contents .ResponsiveAddToBag button:hover {
+    background: darkred;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart {
+    margin: 8.5px 10.625px 25.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .Heart {
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .Heart .Icon {
+    padding-left: 50px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .Heart .text {
+    margin: 3px;
+    border-bottom: 1px solid rgba(100, 100, 80, 0.3);
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .Heart .text:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #d22030;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .star {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .star .Icon {
+    padding-left: 20px;
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .star div {
+    margin: 3px;
+    border-bottom: 1px solid rgba(100, 100, 80, 0.3);
+  }
+  .Responsive .Responsive_Contents .ResponsiveHeartAndStart .star div:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #d22030;
+  }
+  .Responsive .Responsive_Contents .Responsive_Questions {
+    margin-bottom: -80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .Responsive .Responsive_Contents .Responsive_Questions h4 {
+    margin-top: -10px;
+    font-weight: 400;
+  }
+  .Responsive .Responsive_Contents .Responsive_Questions .h2AndIcon {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  .Responsive .Responsive_Contents .Responsive_Questions .h2AndIcon .Icon_Arrow {
+    margin-top: 10%;
+    margin-left: 20%;
+    transition: all 0.3s ease-in-out;
+  }
+  .Responsive .Responsive_Contents .Responsive_Questions .h2AndIcon .Icon_Arrow:hover {
+    transform: translate(1rem, 0);
+    cursor: pointer;
+  }
+}
+.Responsive_Contents {
+  display: none;
+}
+
+.Product_Details_Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.Product_Details_Content .Products_details_Main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product {
+  margin-top: 10%;
+  padding: 0 5%;
+  height: 100%;
+  position: relative;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .left {
+  position: relative;
+  bottom: 450px;
+  background: whitesmoke;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .left:hover {
+  cursor: pointer;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .right {
+  position: relative;
+  bottom: 450px;
+  background: whitesmoke;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .right:hover {
+  cursor: pointer;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .Products_details_Main_Single_Product_Img {
+  margin-bottom: 2%;
+  width: 43.4rem;
+  height: 50.625rem;
+  position: relative;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .Products_details_Main_Single_Product_Carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 30%;
+  margin-top: -5%;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .Products_details_Main_Single_Product_Carousel:hover {
+  cursor: pointer;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .Products_details_Main_Single_Product_Carousel img {
+  background-color: #e6e6e6;
+  border-radius: 0.25rem;
+  height: 2.5rem;
+  width: 2rem;
+  border: 4px solid white;
+}
+.Product_Details_Content .Products_details_Main .Products_details_Main_Single_Product .Products_details_Main_Single_Product_Carousel img:hover {
+  border-bottom: 3px grey solid;
+}
+.Product_Details_Content .preview_img {
+  position: fixed;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 400;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.Product_Details_Content .preview_img > div {
+  width: 60%;
+  height: 100%;
+}
+.Product_Details_Content .preview_img > div .view_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6%;
+  border-bottom: 1px solid #cccccc;
+}
+.Product_Details_Content .preview_img > div .view_head > div:last-child {
+  cursor: pointer;
+  font-size: 2700px;
+  position: absolute;
+  opacity: 0;
+  margin-top: 40%;
+}
+.Product_Details_Content .preview_img > div .view_cont {
+  height: 94%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.Product_Details_Content .preview_img > div .view_cont img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  justify-content: flex-start;
+  width: 600px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Products_details_Main_Product_Contents_name {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.625rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Products_details_Main_Product_Contents_price {
+  display: block;
+  font-size: 1.1875rem;
+  font-weight: 300;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Products_details_Main_Product_Contents_Swatches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-radius: 50%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-right: 5%;
+  line-height: 1.2;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Products_details_Main_Product_Contents_Swatches .Products_details_Main_Product_Contents_Swatches_Swatch {
+  padding-right: 15%;
+  margin-right: 10%;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Products_details_Main_Product_Contents_Swatches .Products_details_Main_Product_Contents_Swatches_Swatch img {
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Products_details_Main_Product_Contents_Swatches .Products_details_Main_Product_Contents_Swatches_Swatch img:hover {
+  cursor: pointer;
+  border: 5px solid #57585b;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .title1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .title1 .sizeContainer {
+  display: flex;
+  flex-direction: row;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .title1 .sizeContainer span {
+  padding: 5px;
+  font-weight: bold;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .title1 .sizeContainer span .size {
+  font-weight: lighter;
+  font-size: 20px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .title1 .sizeGuide {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(100, 100, 80, 0.3);
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .title1 .sizeGuide:hover {
+  border-bottom: 1px solid #d22030;
+  cursor: pointer;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .sizeBar {
+  display: flex;
+  flex-direction: row;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .sizeBar .sizeCell {
+  font-size: 20px;
+  border: 2px solid grey;
+  outline: 5px black;
+  margin: 3% 3% 3% 0;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 4px 10px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_Size .sizeBar .sizeCell:hover {
+  border-color: black;
+  cursor: pointer;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_WhatSize {
+  display: flex;
+  flex-direction: row;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .sizes .Products_details_Main_Product_Contents_WhatSize .WhatSize {
+  text-decoration: underline;
+  margin-left: 5%;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .ShipOrNot .Ship h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .ShipOrNot .Ship .Icon1 {
+  margin-left: 2rem;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .ShipOrNot .Ship h5 {
+  color: #57585b;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
+  margin-left: 4rem;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .ShipOrNot .PickUp {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10%;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .ShipOrNot .PickUp h4 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  text-decoration: none;
+  font-weight: 400;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .ShipOrNot .PickUp .Icon {
+  width: 24px;
+  height: 24px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .AddToBag {
+  text-align: center;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .AddToBag button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: rgb(211, 19, 52);
+  border-color: rgb(211, 19, 52);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .AddToBag button:hover {
+  background: darkred;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart {
+  margin: 8.5px 10.625px 25.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart .Heart {
+  display: flex;
+  flex-direction: row;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart .Heart .text {
+  margin: 3px;
+  border-bottom: 1px solid rgba(100, 100, 80, 0.3);
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart .Heart .text:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #d22030;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart .star {
+  display: flex;
+  flex-direction: row;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart .star div {
+  margin: 3px;
+  border-bottom: 1px solid rgba(100, 100, 80, 0.3);
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .HeartAndStart .star div:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #d22030;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .details h2 {
+  font-size: 1.1875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .details .details_row {
+  display: flex;
+  flex-direction: row;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .details .details_row img {
+  margin: 5px;
+  padding-right: 1rem;
+  width: 30px;
+  height: 30px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .details .details_row div {
+  margin: 5px;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Questions {
+  margin-bottom: -100%;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Questions h4 {
+  font-weight: 400;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Questions .h2AndIcon {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Questions .h2AndIcon .Icon_Arrow {
+  margin-top: 10%;
+  margin-left: 20%;
+  transition: all 0.3s ease-in-out;
+}
+.Product_Details_Content .Products_details_Main_Product_Contents .Questions .h2AndIcon .Icon_Arrow:hover {
+  transform: translate(1rem, 0);
+  cursor: pointer;
+}
+.Product_Details_Content .Products_details_Main_Product_YouMayLike {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin-left: 10%;
+  justify-content: flex-start;
+  max-width: 87rem;
+  overflow: hidden;
+}
+.Product_Details_Content .Products_details_Main_Product_YouMayLike .Products_details_YouMayLIke_Products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Product_Details_Content .Products_details_Main_Product_YouMayLike .Products_details_YouMayLIke_Products .Products_details_YouMayLIke_Products_list {
+  display: flex;
+  justify-content: center;
+}
+.Product_Details_Content .Products_details_Main_Product_YouMayLike .Products_details_YouMayLIke_Products .Products_details_YouMayLIke_Products_list img {
+  padding: 10% 0;
+  margin-bottom: 10%;
+  height: 100px;
+  width: 5.4375rem;
+}
+.Product_Details_Content .Products_details_Main_Product_YouMayLike .Products_details_YouMayLIke_Products .Products_details_YouMayLIke_Products_Name {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.Product_Details_Content .Products_details_Main_Product_YouMayLike .Products_details_YouMayLIke_Products .Products_details_YouMayLIke_Products_Name p {
+  color: black;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+/*# sourceMappingURL=ProductDetails.css.map */

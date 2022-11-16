@@ -1,0 +1,34 @@
+.filterBox{
+  border: none;
+  position: relative;
+  //height: 24px;
+  width: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //color: rgb(87, 88, 91);
+    //border: 1px solid black;
+  }
+  div.checkbox{
+    margin: 0;
+    &:hover{
+      cursor: default;
+    }
+  }
+  div.hoverCheck{
+    margin: 0;
+    &:hover{
+      cursor: default;
+    }
+    color: lightgray;
+    scale: 0.7;
+    font-weight: 1000;
+  }
+}

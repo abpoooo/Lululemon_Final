@@ -1,0 +1,106 @@
+.productDetail_mainCarousel {
+  margin: 20%;
+  position: relative;
+  display: flex;
+}
+
+.productDetail_left {
+  border: red 2px solid;
+}
+
+.productDetail_mainCarousel_Container {
+  max-width: 675px;
+}
+
+.productDetail_mainCarousel_Container_imgs {
+  height: 810px;
+  width: 675px;
+  background-size: cover;
+}
+
+.imagesCarousel_Bar {
+  display: flex;
+  max-width: 675px;
+  justify-content: center;
+}
+
+.left {
+  position: absolute;
+  top: 400px;
+  background: whitesmoke;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.right {
+  position: absolute;
+  top: 400px;
+  left: 630px;
+  background: whitesmoke;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.ImageCarousel_List {
+  margin: 5px;
+}
+
+.ColorSwatch {
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  margin: 0 14px;
+}
+
+.ColorSwatch:hover {
+  cursor: pointer;
+}
+
+.preview_img {
+  position: fixed;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.preview_img > div {
+  width: 60%;
+  height: 100%;
+}
+.preview_img > div .view_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6%;
+  border-bottom: 1px solid #cccccc;
+}
+.preview_img > div .view_head > div:last-child {
+  cursor: pointer;
+  font-size: 21px;
+}
+.preview_img > div .view_cont {
+  height: 94%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.preview_img > div .view_cont img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ImageCarousel_List:hover {
+  cursor: pointer;
+  border-bottom: 3px grey solid;
+}
+
+/*# sourceMappingURL=ProductCarousel.css.map */

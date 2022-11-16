@@ -1,0 +1,316 @@
+
+.reviewItem {
+  margin: 16px 24px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(232, 231, 228) 0 1px 2px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  border: 1px solid white;
+  width: 80vw;
+  max-width: 882px;
+
+  .reviewItemContainer {
+    padding: 16px 24px;
+
+    p {
+      font-size: 15px;
+      padding: 15px 0;
+    }
+    * {
+      margin: 0;
+    }
+
+    .reviewItemHeader {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+
+
+      .initialIcon {
+        font-size: 18px;
+      }
+
+      .userID {
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.4706px;
+      }
+
+      .timeStamp {
+        font-size: 14px;
+        margin-left: 8px;
+        color: rgb(87, 88, 91);
+        line-height: 16.4706px;
+      }
+
+    }
+
+    .reviewRating {
+      font-size: 16px;
+
+      svg {
+        scale: 1.1;
+        padding: 2px;
+
+        path {
+          scale: 1.1;
+        }
+      }
+    }
+
+    .reviewTitle h3 {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28px;
+      margin: 5px 0 0 0;
+    }
+
+    .reviewBody {
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 26px;
+    }
+
+    .sizeNFitContainer {
+      .sizeNFit {
+        display: flex;
+        align-items: flex-end;
+
+        .sizeType {
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+        .sizeNumber {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          margin-left: 3px;
+        }
+      }
+    }
+
+    img {
+      max-width: 145px;
+      max-height: 145px;
+      margin: 0 10px 10px 0;
+    }
+
+    .sizeNFitContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .sizeNFit {
+        display: flex;
+        margin-right: 17px;
+      }
+
+    }
+
+    .reviewItemBottom {
+      display: flex;
+      margin-top: 8px;
+
+      .likeReview {
+        display: flex;
+        margin-right: 16px;
+        align-items: center;
+
+        div {
+          display: flex;
+          align-items: center;
+
+          svg.dislike {
+            cursor: pointer;
+            height: 14px;
+            width: 16px;
+            scale: 1;
+          }
+          svg.like {
+            cursor: pointer;
+            height: 16px;
+            width: 16px;
+            scale: 1;
+          }
+        }
+
+        .numberLiked {
+          margin-left: 6px;
+          width: 20px;
+        }
+      }
+    }
+
+    .leaveComment {
+
+      span {
+        font-size: 15px;
+      }
+
+      svg {
+        height: 24px;
+        width: 24px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scale: 0.9;
+      }
+
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      color: rgb(87, 88, 91);
+    }
+  }
+
+  .commentBox {
+    border-top: 1px solid rgb(213, 213, 213);
+    position: relative;
+    padding: 16px 24px;
+
+    &_close {
+      position: absolute;
+      cursor: pointer;
+      top: 20px;
+      right: 20px;
+    }
+
+    &_comment {
+      display: flex;
+      flex-direction: column;
+
+      span.title {
+        margin: 16px 0 6px 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+      }
+    }
+
+    &_personalInfo {
+      display: flex;
+      flex-direction: row;
+
+      div {
+       margin-right: 50px;
+      }
+
+      &_nickName {
+        width: 50%;
+        margin-right: 200px;
+        &_title {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21.6px;
+          margin: 10px 0 6px 0;
+          display: block;
+        }
+      }
+
+      &_email {
+        width: 50%;
+        &_title {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 21.6px;
+          margin: 10px 0 6px 0;
+          display: block;
+        }
+      }
+    }
+
+    &_post {
+      background-color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      font-stretch: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 1.2px;
+      line-height: 19.2px;
+      border-radius: 4px;
+      border: 1px black solid;
+      padding: 16px;
+      margin-top: 16px;
+      width: max-content;
+
+    }
+
+    &_terms {
+      margin-top: 16px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      color: rgb(87, 88, 91);
+      span{
+        text-decoration: 1px rgb(213, 213, 213) underline;
+        text-underline-offset: 6px;
+        &:hover{
+          text-decoration: 1px #d31334 underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .reviewItemComment {
+    border-top: 1px solid rgb(213, 213, 213);
+    padding: 16px 24px;
+
+    .official {
+      color: rgb(87, 88, 91);
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    .commentBar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 16px;
+
+      svg {
+        height: 24px;
+        width: 24px;
+        fill: #d31334;
+      }
+
+      .MuiAvatar-root {
+        background-color: rgb(149, 149, 149);
+      }
+
+      .nickname {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.4706px;
+        margin-left: 8px;
+      }
+
+      .timeStamp {
+        color: rgb(87, 88, 91);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.4706px;
+        margin-left: 8px;
+      }
+    }
+
+    .commentContent {
+      margin: 16px;
+      padding-left: 36px;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 26px;
+      white-space: pre-line;
+    }
+  }
+}

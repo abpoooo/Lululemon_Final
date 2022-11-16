@@ -1,0 +1,218 @@
+.ContentList_media {
+  display: none;
+}
+
+.ContentList {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentList_HeaderImage {
+  padding: 20px 0;
+}
+
+.ContentList_Header {
+  background-color: #e0e0e0;
+  cursor: pointer;
+  padding: 10px 5px;
+  font-size: 1rem;
+}
+
+.ContentList_Menu {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ContentList_Menu_Select {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContentList_Menu_Select_Item {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 20px 0;
+  margin: 0;
+  border-bottom: 3px solid red;
+}
+.ContentList_Menu_Select_Item p {
+  margin: 0;
+  padding: 0;
+}
+
+.ContentList_Menu_Select_Available {
+  padding: 20px 0;
+  border-bottom: 3px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.ContentList_Menu_Select_Available p {
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+.ContentList_Menu_Select_Available:hover {
+  border-bottom: 3px solid red;
+}
+
+.ContentList_Menu_Sort {
+  padding-right: 10px;
+  width: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.ContentList_Menu_Sort_Btn {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+.ContentList_Menu_Sort_Btn p {
+  margin-right: 10px;
+  font-weight: 600;
+}
+.ContentList_Menu_Sort_Btn span {
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+.ContentList_Menu_Sort_Btn_Icon {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.ContentList_Menu_Sort_DropDown {
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+.ContentList_Menu_Sort_DropDown ul {
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  text-align: center;
+  background: #e0e0e0;
+}
+.ContentList_Menu_Sort_DropDown ul li {
+  padding: 10px;
+  margin: 0;
+  width: 280px;
+}
+.ContentList_Menu_Sort_DropDown ul li :hover {
+  background: #f5f5f5;
+}
+
+.ContentList_SortFilters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ContentList_SortFilters button {
+  background: #e0e0e0;
+  margin: 20px 10px 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: thin solid black;
+}
+
+h1 {
+  display: none;
+}
+
+.ContentList_Menu_Sort_DropDown ul li:hover {
+  background-color: antiquewhite;
+}
+
+@media only screen and (max-width: 390px) {
+  .ContentList {
+    display: none;
+  }
+  .ContentList_media {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .ContentList_media h1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: 1.0769230769;
+    margin: 1.5rem 0.8rem;
+  }
+  .ContentList_media .ContentList_media_Header {
+    margin-top: 0;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    line-height: 1.875rem;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  .ContentList_media .ContentList_media_Menu .ContentList_media_Menu_Select {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: center;
+  }
+  .ContentList_media .ContentList_media_Menu .ContentList_media_Menu_Select .ContentList_media_Menu_Select_Item {
+    border-bottom: 0.1875rem solid #d22030;
+  }
+  .ContentList_media .ContentList_media_Menu .ContentList_media_Menu_Select .ContentList_media_Menu_Select_Item p {
+    font-weight: bold;
+  }
+  .ContentList_media .ContentList_media_Menu .ContentList_media_Menu_Select .ContentList_media_Menu_Select_Available .icon_Arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .ContentList_media .ContentList_media_Menu .ContentList_media_Menu_Select .ContentList_media_Menu_Select_Available :hover {
+    border-bottom: 0.1875rem solid #d22030;
+    transition: all ease-in-out 0.3s;
+  }
+  .ContentList_media .ContentList_media_SortFilters {
+    margin-bottom: 0.75rem;
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .ContentList_media .ContentList_media_SortFilters button {
+    border: 0.0625rem solid;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 7rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+/*# sourceMappingURL=ContentList.css.map */

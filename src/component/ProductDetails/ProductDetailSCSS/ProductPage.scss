@@ -1,0 +1,30 @@
+
+.Product_Details{
+  display: flex;
+  flex-direction: column;
+  //margin: 0 5%;
+  overflow: hidden;
+  //margin-top: 10%;
+  width: 100%;
+
+  .Product_Details_Footer{
+    width: 100%;
+  }
+  .Product_Details_Features{
+    width: 100%;
+    //display: flex;
+    //flex-direction: column;
+  }
+  .Product_Details_YouMayAlsoLikeProducts{
+    width: 100%;
+  }
+  .Product_Details_RecentViewProducts{
+    width: 100%;
+  }
+  .Product_Details_Reviews{
+    width: 100%;
+  }
+  .Product_Details_Virtual{
+    width: 100%;
+  }
+}

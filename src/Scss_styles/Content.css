@@ -1,0 +1,27 @@
+.content {
+  position: relative;
+  max-width: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_media {
+  display: none;
+}
+
+@media only screen and (max-width: 390px) {
+  .content {
+    display: none;
+  }
+  .content_media {
+    display: block;
+    margin: 0;
+  }
+}
+.main_Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Content.css.map */

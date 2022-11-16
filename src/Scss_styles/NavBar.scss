@@ -1,0 +1,151 @@
+.NavBar {
+  @media screen and (max-width: 1000px) {
+    .inputNone {
+      display: inline-block;
+    }
+    img{
+      display: none;
+    }
+    h4 {
+      display: none;
+    }
+    .searchBar {
+      display: none;
+    }
+    .shoppingBag {
+      display: none;
+    }
+  }
+  // input that displays only when web width is under 1000px
+  .inputNone {
+    display: none;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  img {
+    margin: 12px 20px 0 20px;
+  }
+  .h4 {
+    display: flex;
+    flex-direction: row;
+
+    :hover {
+      cursor: pointer;
+      text-decoration: underline crimson 2px;
+      text-underline-offset: 8px;
+    }
+
+    h4 {
+      margin: 20px;
+    }
+  }
+
+  .searchBarAndShoppingBag {
+    display: flex;
+
+    .searchBar {
+      .searchIcon {
+        display: inline-block;
+        position: relative;
+        margin: 20px -40px 0 0;
+      }
+    }
+    .shoppingBag {
+      display: inline-block;
+      position: relative;
+      margin: 25px 0 0 20px;
+      :hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: whitesmoke;
+
+    :hover {
+      cursor: pointer;
+    }
+  }
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  //background-color: #4CAF50;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  //margin-right: 100px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  right: 0;
+  //box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content .dropdown-firstRow {
+  display: flex;
+  color: black;
+  //justify-content: space-between;
+  //padding: 12px 16px;
+  //text-decoration: none;
+  //display: block;
+}
+
+.dropdown-content .dropdown-productDetails{
+  color:black;
+}
+
+.dropdown-content .dropdown-checkout{
+  color: black;
+}
+.dropdown-content .dropdown-checkout .subtotal{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown .dropdown-checkout button{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  margin: 0.5rem;
+  background-color: rgb(211, 19, 52);
+  border-color: rgb(211, 19, 52);
+  color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.075rem;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}

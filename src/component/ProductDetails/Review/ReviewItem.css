@@ -1,0 +1,267 @@
+.reviewItem {
+  margin: 16px 24px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(232, 231, 228) 0 1px 2px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  border: 1px solid white;
+  width: 80vw;
+  max-width: 882px;
+}
+.reviewItem .reviewItemContainer {
+  padding: 16px 24px;
+}
+.reviewItem .reviewItemContainer p {
+  font-size: 15px;
+  padding: 15px 0;
+}
+.reviewItem .reviewItemContainer * {
+  margin: 0;
+}
+.reviewItem .reviewItemContainer .reviewItemHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.reviewItem .reviewItemContainer .reviewItemHeader .initialIcon {
+  font-size: 18px;
+}
+.reviewItem .reviewItemContainer .reviewItemHeader .userID {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.4706px;
+}
+.reviewItem .reviewItemContainer .reviewItemHeader .timeStamp {
+  font-size: 14px;
+  margin-left: 8px;
+  color: rgb(87, 88, 91);
+  line-height: 16.4706px;
+}
+.reviewItem .reviewItemContainer .reviewRating {
+  font-size: 16px;
+}
+.reviewItem .reviewItemContainer .reviewRating svg {
+  scale: 1.1;
+  padding: 2px;
+}
+.reviewItem .reviewItemContainer .reviewRating svg path {
+  scale: 1.1;
+}
+.reviewItem .reviewItemContainer .reviewTitle h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 5px 0 0 0;
+}
+.reviewItem .reviewItemContainer .reviewBody {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.reviewItem .reviewItemContainer .sizeNFitContainer .sizeNFit {
+  display: flex;
+  align-items: flex-end;
+}
+.reviewItem .reviewItemContainer .sizeNFitContainer .sizeNFit .sizeType {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.reviewItem .reviewItemContainer .sizeNFitContainer .sizeNFit .sizeNumber {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 3px;
+}
+.reviewItem .reviewItemContainer img {
+  max-width: 145px;
+  max-height: 145px;
+  margin: 0 10px 10px 0;
+}
+.reviewItem .reviewItemContainer .sizeNFitContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.reviewItem .reviewItemContainer .sizeNFitContainer .sizeNFit {
+  display: flex;
+  margin-right: 17px;
+}
+.reviewItem .reviewItemContainer .reviewItemBottom {
+  display: flex;
+  margin-top: 8px;
+}
+.reviewItem .reviewItemContainer .reviewItemBottom .likeReview {
+  display: flex;
+  margin-right: 16px;
+  align-items: center;
+}
+.reviewItem .reviewItemContainer .reviewItemBottom .likeReview div {
+  display: flex;
+  align-items: center;
+}
+.reviewItem .reviewItemContainer .reviewItemBottom .likeReview div svg.dislike {
+  cursor: pointer;
+  height: 14px;
+  width: 16px;
+  scale: 1;
+}
+.reviewItem .reviewItemContainer .reviewItemBottom .likeReview div svg.like {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  scale: 1;
+}
+.reviewItem .reviewItemContainer .reviewItemBottom .likeReview .numberLiked {
+  margin-left: 6px;
+  width: 20px;
+}
+.reviewItem .reviewItemContainer .leaveComment {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: rgb(87, 88, 91);
+}
+.reviewItem .reviewItemContainer .leaveComment span {
+  font-size: 15px;
+}
+.reviewItem .reviewItemContainer .leaveComment svg {
+  height: 24px;
+  width: 24px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.9;
+}
+.reviewItem .commentBox {
+  border-top: 1px solid rgb(213, 213, 213);
+  position: relative;
+  padding: 16px 24px;
+}
+.reviewItem .commentBox_close {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  right: 20px;
+}
+.reviewItem .commentBox_comment {
+  display: flex;
+  flex-direction: column;
+}
+.reviewItem .commentBox_comment span.title {
+  margin: 16px 0 6px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+.reviewItem .commentBox_personalInfo {
+  display: flex;
+  flex-direction: row;
+}
+.reviewItem .commentBox_personalInfo div {
+  margin-right: 50px;
+}
+.reviewItem .commentBox_personalInfo_nickName {
+  width: 50%;
+  margin-right: 200px;
+}
+.reviewItem .commentBox_personalInfo_nickName_title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin: 10px 0 6px 0;
+  display: block;
+}
+.reviewItem .commentBox_personalInfo_email {
+  width: 50%;
+}
+.reviewItem .commentBox_personalInfo_email_title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin: 10px 0 6px 0;
+  display: block;
+}
+.reviewItem .commentBox_post {
+  background-color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-stretch: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.2px;
+  line-height: 19.2px;
+  border-radius: 4px;
+  border: 1px black solid;
+  padding: 16px;
+  margin-top: 16px;
+  width: max-content;
+}
+.reviewItem .commentBox_terms {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(87, 88, 91);
+}
+.reviewItem .commentBox_terms span {
+  text-decoration: 1px rgb(213, 213, 213) underline;
+  text-underline-offset: 6px;
+}
+.reviewItem .commentBox_terms span:hover {
+  text-decoration: 1px #d31334 underline;
+  cursor: pointer;
+}
+.reviewItem .reviewItemComment {
+  border-top: 1px solid rgb(213, 213, 213);
+  padding: 16px 24px;
+}
+.reviewItem .reviewItemComment .official {
+  color: rgb(87, 88, 91);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.reviewItem .reviewItemComment .commentBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 16px;
+}
+.reviewItem .reviewItemComment .commentBar svg {
+  height: 24px;
+  width: 24px;
+  fill: #d31334;
+}
+.reviewItem .reviewItemComment .commentBar .MuiAvatar-root {
+  background-color: rgb(149, 149, 149);
+}
+.reviewItem .reviewItemComment .commentBar .nickname {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.4706px;
+  margin-left: 8px;
+}
+.reviewItem .reviewItemComment .commentBar .timeStamp {
+  color: rgb(87, 88, 91);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.4706px;
+  margin-left: 8px;
+}
+.reviewItem .reviewItemComment .commentContent {
+  margin: 16px;
+  padding-left: 36px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  white-space: pre-line;
+}
+
+/*# sourceMappingURL=ReviewItem.css.map */

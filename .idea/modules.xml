@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../20-city-view-redux-base/.idea/20-city-view-react-redux-base.iml" filepath="$PROJECT_DIR$/../../20-city-view-redux-base/.idea/20-city-view-react-redux-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../c61/.idea/c61.iml" filepath="$PROJECT_DIR$/../../../c61/.idea/c61.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/c61-lulu-ecommerce.iml" filepath="$PROJECT_DIR$/../.idea/c61-lulu-ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lululemon_project.iml" filepath="$PROJECT_DIR$/.idea/lululemon_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../m2w-cityview/.idea/m2w-cityview.iml" filepath="$PROJECT_DIR$/../../m2w-cityview/.idea/m2w-cityview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../reactredux-beemusic-project-base-main/.idea/reactredux-beemusic-project-base-main.iml" filepath="$PROJECT_DIR$/../../reactredux-beemusic-project-base-main/.idea/reactredux-beemusic-project-base-main.iml" />
+    </modules>
+  </component>
+</project>

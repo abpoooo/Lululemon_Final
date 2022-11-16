@@ -1,0 +1,251 @@
+
+.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .paymentBackendLogo {
+    margin: 0;
+    padding: 40px 0;
+    align-content: center;
+    background: rgb(250, 250, 250);
+
+    img {
+      width: 34px;
+      height: 34px;
+      cursor: pointer;
+      margin: 0;
+    }
+  }
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+h4 {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.paymentBillingAddress {
+  display: flex;
+  flex-direction: row;
+  .billingAddress {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  #pBill {
+    margin: -1px 0 20px 5px;
+  }
+}
+
+// iPhone 12 Pro
+.paymentBackendCheckoutColumn {
+  display: none;
+}
+// iPhone 12 Pro
+
+.paymentBackendCheckoutRow {
+  display: flex;
+  flex-direction: row;
+
+  .paymentBackendCheckout {
+    min-width: 700px;
+    max-width: 1200px;
+    padding-right: 40px;
+
+    .informationTab {
+      display: flex;
+      flex-direction: column;
+
+      .rowTab {
+        margin-bottom: 20px;
+      }
+
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+
+      .matchMarginWithH3 {
+        margin-top: 12px;
+      }
+
+      .pBold {
+        font-weight: bold;
+        padding-right: 10px;
+      }
+
+      .pEdit {
+        color: black;
+        text-decoration-line: underline;
+        text-decoration-color: #bfbfbf;
+
+        &:hover {
+          cursor: pointer;
+          text-decoration-line: underline;
+          text-decoration-color: #d31334;
+        }
+      }
+    }
+
+    hr {
+      width: 666px;
+      border-top: 1px solid #bfbfbf;
+    }
+  }
+}
+
+// iPhone 12 Pro
+.paymentBackendFooterColumn {
+  display: none;
+}
+// iPhone 12 Pro
+
+.paymentBackendFooter {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+  min-width: 1200px;
+
+  .paymentBackendFooterTitle {
+    padding: 20px 20px 0 20px;
+
+    p {
+      padding: 7px 0;
+      font-size: 15px;
+      font-weight: bold;
+      color: dimgrey;
+    }
+
+    hr {
+      color: slategrey;
+    }
+  }
+
+  .paymentBackendFooterSubtitle {
+    padding: 0 20px 20px 20px;
+
+    p {
+      padding: 7px 0;
+      font-size: 15px;
+      color: dimgrey;
+    }
+  }
+}
+
+p {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.paymentTypes {
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.billingBox{
+  margin: 0;
+  border: 0;
+  position: relative;
+  //height: 24px;
+  //width: 24px;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div{
+    margin: 0;
+    //position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(87, 88, 91);
+    //border: 1px solid black;
+  }
+  .checkBillingBox{
+    padding: 0;
+    &:hover{
+      cursor: default;
+    }
+  }
+  .billingHoverCheck{
+    position: absolute;
+    padding: 0;
+    &:hover{
+      cursor: default;
+    }
+    color: lightgray;
+    scale: 0.7;
+    font-weight: 1000;
+  }
+}
+
+// iPhone 12 Pro
+@media only screen and (max-width: 391px) {
+  h2 {
+  display: none;
+  }
+  h3 {
+    width: auto;
+    margin: 0;
+  }
+  .informationTab {
+    div {
+      margin-bottom: 10px;
+    }
+  }
+
+  .paymentBackendCheckoutRow {
+    display: none;
+  }
+  .paymentBackendCheckoutColumn {
+    display: flex;
+    flex-direction: column;
+  }
+  .pEdit {
+    width: 10px;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: #bfbfbf;
+  }
+  .paymentBackendFooter {
+    display: none;
+  }
+  .paymentBackendFooterColumn {
+    display: flex;
+    flex-direction: column;
+      margin-top: 50px;
+    padding: 20px;
+    div {
+      width: auto;
+    }
+    .paymentBackendFooterTitle {
+      color: dimgrey;
+    }
+    .paymentBackendFooterSubtitle {
+      color: #57585B;
+    }
+  }
+}
+// iPhone 12 Pro

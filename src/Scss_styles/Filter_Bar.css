@@ -1,0 +1,632 @@
+.Filter_Shows_In_Left {
+  float: left;
+  width: 250px;
+  background: white;
+  margin-left: 140px;
+  margin-right: 0;
+  margin-top: 40px;
+  max-width: 400px;
+  transform: translateX(25%);
+}
+.Filter_Shows_In_Left h2 {
+  font-size: 20px;
+}
+
+.FilterClothes_0 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_0 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_0 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_0 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_0 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_0 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_0 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_0 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_1 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_1 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_1 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_1 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_1 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_1 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_1 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_1 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_2 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_2 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_2 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_2 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_2 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_2 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_2 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_2 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_3 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_3 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_3 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_3 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_3 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_3 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_3 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_3 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_4 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_4 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_4 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_4 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_4 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_4 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_4 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_4 button_View:hover {
+  cursor: pointer;
+}
+.FilterClothes_4 .btnChecked {
+  font-weight: 600;
+  border-radius: 3px;
+  margin: 6px;
+  padding: 2px 6px;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  outline: 5px black;
+}
+.FilterClothes_4 .btnNotChecked {
+  font-weight: 600;
+  border-radius: 3px;
+  margin: 6px;
+  padding: 2px 6px;
+  border-color: #D3D3D3;
+  border-style: solid;
+  border-width: 2px;
+  outline: 5px black;
+}
+.FilterClothes_4 div div {
+  display: inline-block;
+}
+
+.FilterClothes_5 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_5 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_5 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_5 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_5 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_5 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_5 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_5 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_6 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_6 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_6 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_6 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_6 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_6 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_6 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_6 button_View:hover {
+  cursor: pointer;
+}
+.FilterClothes_6 .FilterClothesContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.FilterClothes_6 .FilterClothesContent div {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 10px;
+}
+.FilterClothes_6 .FilterClothesContent div .btnChecked {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 6px;
+  color: black;
+  border-style: solid;
+  border-width: 3px;
+  outline: 5px black;
+  overflow: hidden;
+}
+.FilterClothes_6 .FilterClothesContent div .btnChecked img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.FilterClothes_6 .FilterClothesContent div .btnNotChecked {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 6px;
+  color: #D3D3D3;
+  border-style: solid;
+  border-width: 2px;
+  outline: 5px black;
+  overflow: hidden;
+  background-repeat: repeat;
+}
+.FilterClothes_6 .FilterClothesContent div .btnNotChecked img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.FilterClothes_6 .FilterClothesContent div label {
+  text-align: center;
+  font-size: 16px;
+}
+.FilterClothes_6 div div {
+  display: inline-block;
+}
+
+.FilterClothes_7 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_7 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_7 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_7 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_7 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_7 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_7 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_7 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_8 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_8 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_8 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_8 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_8 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_8 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_8 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_8 button_View:hover {
+  cursor: pointer;
+}
+
+.FilterClothes_9 h2 {
+  font-size: 20px;
+  margin: 0 auto 1rem;
+  flex-grow: 2;
+  font-family: Calibre, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 540;
+  line-height: 25.5px;
+  cursor: pointer;
+  align-items: center;
+  display: inline-block;
+  padding-right: 120px;
+}
+.FilterClothes_9 .rowTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.FilterClothes_9 .FilterClothes {
+  font-size: 18px;
+  text-align: left;
+  font-family: Calibre, VerlabHelvetica, sans-serif;
+  margin: 0 auto 30px;
+}
+.FilterClothes_9 .FilterClothes .FilterClothesContent div {
+  margin: 5px;
+  position: relative;
+  text-align: left !important;
+}
+.FilterClothes_9 button {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+  margin: 20px 5px;
+}
+.FilterClothes_9 button:hover {
+  cursor: pointer;
+}
+.FilterClothes_9 button_View {
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 20px 5px;
+  justify-content: space-between;
+}
+.FilterClothes_9 button_View:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Filter_Bar.css.map */

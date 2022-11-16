@@ -1,0 +1,126 @@
+.Products_List_media{
+  display: none;
+}
+.Products_List {
+  //float: right;
+  //position: relative;
+  //max-width: 1070px;
+  position: relative;
+
+  &_ListCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &_ViewMoreImages {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    //margin: 70px 0;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    padding: 10px 0;
+    //margin-top: 40px;
+
+    &_Display {
+      margin-top: 80px;
+      font-weight: 300;
+      //font-family: sans-serif;
+      //border: 1px solid red;
+      align-content: center;
+      text-align: center;
+      cursor: alias;
+      //border: 1px solid red;
+
+
+    }
+  }
+
+  &_Content {
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    //border: 1px solid red;
+    //font-weight: 500;
+    //background-color: white;
+
+
+
+
+
+
+    &_Btn{
+      margin-top: 10px;
+      text-transform: uppercase;
+      font-weight: 500;
+      background-color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      //text-align: center;
+      //align-content: center;
+      //align-items: center;
+
+
+    }
+    &_Icon {
+      margin-top: 10px;
+      color: red;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .Products_List{
+    display: none;
+  }
+  .Products_List_media{
+    display: block;
+    transform: translateX(5%);
+
+    .Products_List_media_ViewMoreImages_Display{
+      align-content: center;
+      margin-top: 8%;
+      margin-bottom: 5%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      //border: red;
+
+    }
+
+    .Products_List_media_ViewMoreImages {
+      //border: 1px solid red;
+      //padding: 30px;
+      margin-top: 80px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Products_List_Content {
+      //border: 1px solid red;
+      justify-content: center;
+
+    }
+
+  }
+
+
+
+}
+
+
+
+
